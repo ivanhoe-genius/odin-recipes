@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(60, 64, 65);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 15px;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.295);
+}
